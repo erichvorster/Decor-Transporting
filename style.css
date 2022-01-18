@@ -1,6 +1,4 @@
-//NAVBAR
-
-nav {
+/NAVBAR nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +28,7 @@ nav {
 .switch {
   text-decoration: none;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 18px;
   color: black;
   position: relative;
 }
@@ -39,10 +37,10 @@ nav {
   content: "";
   position: absolute;
   background-color: #0000ff;
-  height: 1px;
+  height: 2px;
   width: 0;
   left: 0;
-  bottom: -8px;
+  bottom: -4px;
   transition: 0.3s;
 }
 
@@ -114,13 +112,23 @@ nav {
 }
 
 /*  HERO SECTION  */
-
-.hero-img {
+.hero {
+  width: 100vw;
+  height: 90vh;
   object-fit: cover;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5) 100%
-  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(./Decor/hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  padding-bottom: 40px;
+}
+
+.fleet-img {
+  object-fit: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%);
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -201,4 +209,10 @@ nav {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+/* Services Section */
+
+.services {
+  background-color: #fde83e;
 }
