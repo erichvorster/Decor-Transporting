@@ -6,7 +6,7 @@
 }
 
 .logo {
-  height: 40px;
+  height: 60px;
   width: auto;
 }
 .nav-links {
@@ -117,7 +117,7 @@
   height: 90vh;
   object-fit: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url(./Decor/hero-image.jpg);
+    url(./Decor/hero-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
