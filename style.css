@@ -133,7 +133,9 @@
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
+.carousel-container {
+  background-color: #0000ff;
+}
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
